@@ -1,1 +1,3 @@
-# guia-monitor
+# Guia do Monitor Técnico 2023
+Projeto realizado com intuito de tornar o guia do monitor mais interessante. Além disso, ele é um site 100% responsivo e possui diversos links / âncoras para facilitar o acesso às informações. Decidi fazer a página baseada nas cores e identidade do próprio site da COTEMIG, o desing não é complexo para evitar poluição visual. 
+ATENÇÃO: Na sessão "Acompanhamento de chamados (follow-ups) da página "Chamados no GLPI", a imagem será substituida por uma de acordo com o assunto, ainda não foi colocada a oficial pois entrei no sistema e não havia nenhum chamado em andamento ainda.
