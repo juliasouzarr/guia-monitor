@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+/* GERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    line-height: 25px;
+}
+
+.margin {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.titulo-content {
+    color: #40aa0b;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.text-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: #333232;
+}
+
+.text-content li {
+    margin-top: 9px;
+}
+
+.linha {
+    height: 1px;
+    background-color: #333232;
+    opacity: 0.3;
+    width: 75%;
+    margin: auto;
+}
+
+
+/* HEADER */
+
+.header {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-header {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.btn-header-responsive {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.btn-header:hover {
+    color: #40aa0b;
+    transition: 0.3s;
+}
+
+.logo-header {
+    height: 31px;
+}
+
+.responsive-header {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* CAPA */
+
+.capa {
+    margin-bottom: 100px;
+}
+
+.titulo {
+    position: relative;
+    background: #000000;
+    overflow: hidden;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 50px;
+    z-index: 2;
+}
+
+.titulo:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url("assets/laboratorio-apple.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#titulo {
+    z-index: 3;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    z-index: 3;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+/* INÍCIO */
+
+.container {
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 40px;
+    color: #333232;
+}
+
+.img-content {
+    height: 400px;
+    width: 400px;
+    margin-right: 40px;
+}
+
+.img-horizontal {
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.objetivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsabilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.supervisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container p {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+
+/* ROTINA */
+
+.green-block {
+    margin-top: 50px;
+    background-color: #40aa0b;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 110px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.rotina-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.rotina-coluna {
+    width: 35%;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.rotina-titulo {
+    color: #40aa0b;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+#img-floresta {
+    height: 460px;
+}
+
+#img-diariamente {
+    width: 50%;
+    height: 50%;
+}
+
+
+/* REGRAS */
+
+#regras {
+    margin-bottom: 60px;
+}
+
+#titulo-regras {
+    margin-bottom: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* DURANTE AS AULAS */
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin: auto;
+    text-align: justify;
+    width: 72%;
+}
+
+.box img {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.box p {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.box a {
+    color: #333232;
+    font-weight: bold;
+}
+
+#diariamente {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+#diariamente-titulo {
+    color: #40aa0b;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+#img-gamer {
+    width: 650px;
+}
+
+.green-block2 {
+    margin-top: 50px;
+    background-color: #40aa0b;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 130px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+#monitoria-remota {
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+#monitoria-presencial {
+    margin-top: 80px;
+}
+
+#monitoriar-text {
+    margin-right: 40px;
+}
+
+
+/* GLPI */
+
+#img-glpi-responsive {
+    display: none;
+}
+
+#img-glpi {
+    width: 500px;
+    margin-right: 60px;
+}
+
+#img-alunos {
+    width: 500px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+.col-glpi {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+#acesso-sistema {
+    margin-top: 130px;
+}
+
+.glpi-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 60px;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+.img-col-glpi {
+    width: 100%;
+    max-height: 470px;
+}
+
+.glpi-coluna {
+    width: 700px;
+    line-height: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.text-decoration-a {
+    text-decoration: black underline;
+}
+
+#text-decoration-a {
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #377e13;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 45px;
+    background-image: url('assets/icon-logo.png');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    background-position-y: bottom;
+    background-position: -10px 35px;
+}
+
+.footer-part {
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+}
+
+.footer-titulo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: #102903;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.footer-item {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: rgba(236, 232, 232, 0.945);
+}
+
+
+/* MENU */
+
+
+/* RESPONSIVIDADE CELULAR */
+
+@media screen and (max-width:800px) {
+    /* GERAL */
+    body {
+        justify-content: center;
+        margin: auto;
+    }
+    .btn-menu {
+        display: flex;
+    }
+    .img-responsive {
+        display: none;
+    }
+    .titulo-content {
+        font-size: 32px;
+        text-align: center;
+        align-items: center;
+    }
+    .text-content {
+        font-size: 15px;
+    }
+    .margin-responsive {
+        margin-top: 50px;
+    }
+    /* HEADER E CAPA */
+    .header {
+        background-color: black;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+    }
+    .responsive-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-header {
+        display: none;
+    }
+    .btn-header-responsive {
+        display: flex;
+    }
+    #titulo {
+        font-size: 50px;
+        margin-bottom: 10px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .subtitulo {
+        font-size: 25px;
+    }
+    /* INÍCIO */
+    .supervisor {
+        flex-direction: column;
+    }
+    #img-otaviano {
+        width: 370px;
+        margin-bottom: 40px;
+        margin-top: -10px;
+    }
+    /* ROTINA */
+    .green-block {
+        font-size: 18px;
+        padding: 15px;
+    }
+    .rotina-container {
+        flex-direction: column;
+        justify-items: center;
+    }
+    .rotina-coluna {
+        width: 90%;
+        margin: auto;
+    }
+    .img-rotina {
+        width: 100%;
+        height: 100%;
+    }
+    .img-lab {
+        width: 95%;
+    }
+    #defeito {
+        text-align: center;
+    }
+    /* AULAS */
+    .green-block2 {
+        font-size: 18px;
+        padding: 15px;
+        height: 110px;
+    }
+    .box {
+        flex-direction: column;
+    }
+    .titulo-monitoria {
+        line-height: 35px;
+        text-align: center;
+    }
+    /* GLPI */
+    .glpi {
+        flex-direction: column;
+    }
+    .col-glpi {
+        flex-direction: column;
+    }
+    #acesso-sistema {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .glpi-container {
+        flex-direction: column;
+    }
+    .glpi-coluna {
+        max-width: 80%;
+    }
+    #img-glpi-responsive {
+        display: flex;
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    /* FOOTER */
+    .footer {
+        margin-top: 50px;
+        background-image: none;
+        padding-top: 35px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: auto;
+        max-width: 100%;
+        height: 240px;
+    }
+    .footer-part {
+        width: 150px;
+        padding-right: 5px;
+    }
+    .footer-titulo {
+        font-size: 18px;
+    }
+    .footer-item {
+        font-size: 12px;
+    }
+}
+
+
+/* RESPONSIVIDADE TABLET */
+
+@media screen and (min-width:801px) and (max-width:1300px) {
+    /* GERAL */
+    body {
+        justify-content: center;
+        margin: auto;
+    }
+    .img-responsive {
+        display: none;
+    }
+    .titulo-content {
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        line-height: 35px;
+    }
+    .text-content {
+        font-size: 18px;
+    }
+    /* HEADER E CAPA */
+    #titulo {
+        font-size: 60px;
+        margin-bottom: 10px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    /* INÍCIO */
+    .supervisor {
+        flex-direction: column;
+    }
+    #img-otaviano {
+        width: 370px;
+        margin-bottom: 40px;
+        margin-top: -10px;
+    }
+    /* ROTINA */
+    .green-block {
+        font-size: 20px;
+        padding: 20px;
+        line-height: 30px;
+    }
+    .img-rotina {
+        display: none;
+    }
+    .rotina-container {
+        width: 95%;
+    }
+    .rotina-coluna {
+        width: 100%;
+    }
+    /* AULAS */
+    .img-lab {
+        display: none;
+    }
+    .green-block2 {
+        font-size: 20px;
+        padding: 20px;
+    }
+    /* GLPI */
+    #acesso-sistema {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    /* FOOTER */
+    .footer {
+        margin-top: 50px;
+        background-image: none;
+        padding-top: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: auto;
+        max-width: 100%;
+    }
+    .footer-part {
+        width: 200px;
+    }
+    .footer-titulo {
+        font-size: 19px;
+    }
+    .footer-item {
+        font-size: 13px;
+    }
+}

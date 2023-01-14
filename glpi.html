@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLPI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icon-cotemig.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="capa">
+        <header class="header">
+            <img class="logo-header margin" src="assets/logo.png" alt="">
+            <div class="a margin">
+                <a class="btn-header" href="index.html" id="header-inicio">Início</a>
+                <a class="btn-header" href="rotina.html" id="header-rotina">Rotina</a>
+                <a class="btn-header" href="regras.html" id="header-regras">Regras</a>
+                <a class="btn-header" href="aulas.html" id="header-aulas">Durante as aulas</a>
+                <style>
+                    #header-glpi {
+                        opacity: 1;
+                    }
+                </style> <a class="btn-header" href="glpi.html" id="header-glpi">Chamados no GLPI</a>
+
+            </div>
+        </header>
+        <header class="responsive-header header">
+            <div class="responsive-header">
+                <a class="btn-header-responsive" href="index.html" id="header-inicio">Início</a>
+                <a class="btn-header-responsive" href="rotina.html" id="header-rotina">Rotina</a>
+                <a class="btn-header-responsive" href="regras.html" id="header-regras">Regras</a>
+                <a class="btn-header-responsive" href="aulas.html" id="header-aulas">Durante as aulas</a>
+                <a class="btn-header-responsive" href="glpi.html" id="header-glpi">Chamados no GLPI</a>
+            </div>
+        </header>
+        <div class="titulo">
+            <h1 id="titulo">Chamados no GLPI</h1>
+            <div id="glpi"></div>
+        </div>
+    </div>
+
+    <div class="glpi">
+        <div class="col-glpi" id="o-glpi">
+            <img src="assets/GLPI.png" alt="" id="img-glpi" class='img-responsive'>
+            <div>
+                <h1 id="glpi-titulo" class="titulo-content">O GLPI
+                </h1>
+                <p class="text-content">Ele deverá ser utilizado para todas as <b>solicitações de serviços</b> feitas para o CAU. O GLPI - Gestion Libre de Parc Informatique é um software livre para gestão de recursos computacionais e <b>helpdesk</b> - serviço de apoio a usuários
+                    para suporte e resolução de problemas técnicos.
+
+                </p>
+                <img src="assets/GLPI.png" alt="" id="img-glpi-responsive">
+            </div>
+            <div id="acesso"></div>
+        </div>
+
+
+        <div class="col-glpi" id="acesso-sistema">
+            <div>
+                <h1 class="titulo-content">Acesso ao sistema
+                </h1>
+                <p class="text-content">O sistema é acessado diretamente pelo endereço
+                    <a id="text-decoration-a" href="http://www.cotemig.com.br/cau">
+                        <font color="#40aa0b"><b>http://www.cotemig.com.br/cau</b></font>
+                    </a>. Na tela de abertura, informe o <b> nome de usuário </b> (o mesmo usado para acessar o portal COTEMIG) e a <b>senha padrão</b> enviada por e-mail pelo setor de atendimento. Em caso de problemas no acesso, entre em contato pelo endereço
+                    <b> <a class="text-decoration-a" href="mailto:atendimento@cotemig.com.br"><font color="#333232">atendimento@cotemig.com.br</font></a></b>.
+                    <br> O usuário deverá efetuar a <b> troca da senha logo após o primeiro acesso.</b> Recomendamos a utilização da mesma senha usada para acesso ao portal institucional, a fim de evitar o extravio da mesma.
+                </p>
+            </div>
+            <img src="assets/alunos-barroca.png" alt="" id="img-alunos" class='img-responsive'>
+        </div>
+    </div>
+
+    <div class="linha"></div>
+    <div id="chamados"></div>
+    <div class="glpi-container">
+        <div class="glpi-coluna" id="abertura-chamados">
+            <img src="assets/glpi-tela1.png" alt="" class="img-col-glpi">
+            <h1 class="rotina-titulo">Abertura de chamados</h1>
+            <p class="text-content">Para abrir um novo chamado, utilize a opção “Criar um chamado”, na tela principal do Sistema. <br>
+                <font color="#377e13"><b>Urgência:</b></font> vem definida como Média e <b> não deve ser alterada</b>, não interfere na prioridade do atendimento que será definida pelos técnicos; <br>
+                <font color="#377e13"><b>Tipo de hardware:</b></font><b> selecione o equipamento</b> com problema (Computador ou Impressora) ou selecione Geral para solicitações que não envolvam equipamentos ou para equipamentos sem etiqueta de identificação. Ao selecionar
+                “Computador” ou “Impressora”, serão abertos dois campos para identificação do equipamento, de acordo com a etiqueta do COTEMIG afixada no equipamento. No primeiro campo <b>digite as letras</b> que estão na etiqueta e que indicam o local
+                do COTEMIG onde se encontra o equipamento. Na caixa de opções <b>localize</b> o equipamento; <br>
+                <font color="#377e13"><b>Tipo:</b></font> Selecione <b>“Incidente”</b> quando for problemas/defeitos em equipamentos ou <b>“Requisição”</b> para qualquer outra demanda; <br>
+                <font color="#377e13"><b>Categoria:</b></font> Selecione a categoria do chamado que mais se adequa ao problema; <br>
+                <font color="#377e13"><b>Título:</b></font> Informe um título para o chamado (opcional); Na área em branco descreva o problema com o maior detalhamento possível. Se necessário, anexe um arquivo ao chamado que possa auxiliar na solução do problema.</p>
+        </div>
+
+        <div class="glpi-coluna" id="follow-ups">
+            <img src="assets/laboratorio-1.jpg" alt="" class="img-col-glpi">
+            <h1 class="rotina-titulo">Acompanhamento de chamados (Follow-ups)</h1>
+            <p class="text-content">O usuário poderá <b>acompanhar o andamento</b> de seus chamados por meio da opção “Chamados”, disponível na Tela Principal do GLPI. Para obter detalhes do chamado, <b>clique no título</b> do mesmo. O usuário poderá modificar os dados ou adicionar
+                novas informações ao chamado, clicando em “Adicionar novo follow-up”. A partir do instante que um dos técnicos assume o chamado, este <b>não poderá mais ser alterado pelo usuário.</b>
+                <br> Os técnicos responderão ao chamado adicionando novos follow-ups, como mostrado na figura acima.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-inicio footer-part">
+                <a href="index.html" class="footer-titulo">Início</a>
+                <a href="index.html#objetivo" class="footer-item">Objetivo</a>
+                <a href="index.html#responsabilidade" class="footer-item">Responsabilidades</a>
+                <a href="index.html#supervisor" class="footer-item">Supervisor Técnico</a>
+            </div>
+            <div class="footer-rotina footer-part">
+                <a href="rotina.html#rotina" class="footer-titulo">Rotina</a>
+                <a href="rotina.html#diariamente" class="footer-item">Conferir diariamente <br> nos laboratórios</a>
+                <a href="regras.html#regras" class="footer-item">Regras de comportamento</a>
+            </div>
+            <div class="footer-aulas footer-part">
+                <a href="aulas.html#aulas" class="footer-titulo">Durante as aulas</a>
+                <a href="aulas.html#monitoriap" class="footer-item">Monitoria / estudos <br> presenciais</a>
+                <a href="aulas.html#monitoriar" class="footer-item">Monitoria / estudos remotos</a>
+            </div>
+            <div class="footer-glpi footer-part">
+                <a href="glpi.html#glpi" class="footer-titulo">O GLPI</a>
+                <a href="glpi.html#acesso" class="footer-item">Acesso ao sistema</a>
+                <a href="glpi.html#chamados" class="footer-item">Abertura e <br> acompanhamento de chamados</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
