@@ -2,35 +2,33 @@
 
 /* GERAL */
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
 }
-
-html {
+html{
     scroll-behavior: smooth;
     max-width: 100%;
 }
-
-body {
-    margin: 0;
-    line-height: 25px;
+body{
+  margin: 0;
+  line-height: 25px;
 }
 
-.margin {
+.margin{
     margin-left: 40px;
     margin-right: 40px;
 }
 
-.titulo-content {
+.titulo-content{
     color: #40aa0b;
     font-family: 'Lato', 'sans-serif';
     font-size: 45px;
     margin-bottom: 20px;
-    line-height: 40px;
+    line-height:40px;
 }
 
-.text-content {
+.text-content{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -49,10 +47,9 @@ body {
     margin: auto;
 }
 
-
 /* HEADER */
 
-.header {
+.header{
     background-color: black;
     height: 60px;
     display: flex;
@@ -60,7 +57,7 @@ body {
     justify-content: space-between;
 }
 
-.btn-header {
+.btn-header{
     color: white;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
@@ -69,7 +66,7 @@ body {
     opacity: 0.6;
 }
 
-.btn-header-responsive {
+.btn-header-responsive{
     color: white;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
@@ -78,29 +75,26 @@ body {
     opacity: 0.6;
 }
 
-.btn-header:hover {
+.btn-header:hover{
     color: #40aa0b;
     transition: 0.3s;
 }
 
-.logo-header {
+.logo-header{
     height: 31px;
 }
 
-.responsive-header {
+.responsive-header{
     display: none;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-between;
 }
 
-
 /* CAPA */
 
-.capa {
-    margin-bottom: 100px;
-}
+.capa{margin-bottom: 100px;}
 
-.titulo {
+.titulo{
     position: relative;
     background: #000000;
     overflow: hidden;
@@ -115,7 +109,6 @@ body {
     padding: 50px;
     z-index: 2;
 }
-
 .titulo:before {
     content: ' ';
     display: block;
@@ -132,75 +125,71 @@ body {
     background-size: cover;
 }
 
-#titulo {
+#titulo{
     z-index: 3;
     font-size: 80px;
     margin-bottom: 20px;
 }
-
-.subtitulo {
+.subtitulo{
     z-index: 3;
     font-size: 40px;
     margin-top: 30px;
 }
 
-
 /* INÍCIO */
 
-.container {
+.container{
     width: 75%;
     text-align: justify;
     margin: auto;
     margin-top: 40px;
-    color: #333232;
+   color: #333232;
 }
 
-.img-content {
-    height: 400px;
+.img-content{
+    height:400px;
     width: 400px;
     margin-right: 40px;
 }
-
-.img-horizontal {
-    height: 400px;
+.img-horizontal{
+    height:400px;
     width: 600px;
     margin-left: 50px;
 }
 
-.content {
+.content{
     display: flex;
     flex-direction: column;
 }
 
-.objetivo {
+.objetivo{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.responsabilidades {
+.responsabilidades{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
-
-.supervisor {
+.supervisor{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
 
-.container p {
+.container p{
     margin-bottom: 0;
     margin-top: 15px;
+    
 }
-
 
 /* ROTINA */
 
-.green-block {
+.green-block{
     margin-top: 50px;
     background-color: #40aa0b;
     color: white;
@@ -214,24 +203,28 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.rotina-container {
+.rotina-container{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
     justify-content: space-evenly;
     margin-bottom: 60px;
+    
 }
 
-.rotina-coluna {
+.rotina-coluna{
     width: 35%;
     margin-left: 40px;
     margin-right: 40px;
     text-align: justify;
+   
 }
 
-.rotina-titulo {
+.rotina-titulo{
     color: #40aa0b;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -242,76 +235,98 @@ body {
     line-height: 35px;
 }
 
-#img-floresta {
-    height: 460px;
-}
 
-#img-diariamente {
+
+#img-diariamente{
     width: 50%;
     height: 50%;
 }
 
+.img-rotina{
+max-width: 100%;
+height: auto;
+}
 
 /* REGRAS */
 
-#regras {
+#regras{
     margin-bottom: 60px;
 }
 
-#titulo-regras {
+#titulo-regras{
     margin-bottom: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-
 /* DURANTE AS AULAS */
 
-.box {
+.box{
     display: flex;
     justify-content: center;
     margin-top: 120px;
     margin: auto;
     text-align: justify;
     width: 72%;
+   
 }
 
-.box img {
+.monitoria .box{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.monitoria .box img{
+width: auto;
+margin: auto;
+height: auto;
+}
+
+.titulo-monitoria{
+    text-align: center;
+}
+
+.img-aulas{
+    flex-direction: row;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.box img{
     margin-right: 40px;
     margin-left: 40px;
 }
-
-.box p {
+.box p{
     margin-top: 40px;
     margin-left: 20px;
 }
-
-.box a {
+.box a{
     color: #333232;
     font-weight: bold;
 }
 
-#diariamente {
+#diariamente{
     margin-top: 70px;
     margin-bottom: 60px;
 }
-
-#diariamente-titulo {
-    color: #40aa0b;
+#diariamente-titulo{
+      color: #40aa0b;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
-    line-height: 35px;
+line-height: 35px;}
+
+#img-gamer{
+    height: 300px;
+    width: auto;
 }
 
-#img-gamer {
-    width: 650px;
-}
-
-.green-block2 {
+.green-block2{
     margin-top: 50px;
     background-color: #40aa0b;
     color: white;
@@ -328,38 +343,38 @@ body {
     line-height: 30px;
 }
 
-#monitoria-remota {
-    margin-bottom: 60px;
-    margin-top: 70px;
-}
+#monitoria-remota{margin-bottom: 60px;
+margin-top: 70px;}
 
-#monitoria-presencial {
+#monitoria-presencial{
     margin-top: 80px;
 }
 
-#monitoriar-text {
+#monitoriar-text{
     margin-right: 40px;
 }
 
 
+
+
 /* GLPI */
 
-#img-glpi-responsive {
+#img-glpi-responsive{
     display: none;
 }
-
-#img-glpi {
-    width: 500px;
+#img-glpi{
+    width: auto;
     margin-right: 60px;
+    height: 200px;
 }
-
-#img-alunos {
-    width: 500px;
+#img-alunos{
+    width: auto;
     margin-left: 60px;
     margin-bottom: 80px;
+    height: 400px ;
 }
 
-.col-glpi {
+.col-glpi{
     display: flex;
     width: 70%;
     margin: auto;
@@ -367,43 +382,32 @@ body {
     margin-top: 60px;
 }
 
-#acesso-sistema {
-    margin-top: 130px;
-}
+#acesso-sistema{margin-top: 130px;
+margin-bottom: 60px;}
 
-.glpi-container {
+.glpi-container{
     display: flex;
-    margin: auto;
-    justify-content: center;
-    margin-bottom: 60px;
-    text-align: justify;
-    margin-top: 80px;
+margin: auto;
+justify-content: center;
+margin-bottom: 60px;
+text-align: justify;
+margin-top: 80px;
 }
-
-.img-col-glpi {
+.img-col-glpi{
     width: 100%;
     max-height: 470px;
 }
 
-.glpi-coluna {
+.glpi-coluna{
     width: 700px;
     line-height: 30px;
     margin-left: 70px;
     margin-right: 70px;
 }
 
-.text-decoration-a {
-    text-decoration: black underline;
-}
-
-#text-decoration-a {
-    text-decoration: none;
-}
-
-
 /* FOOTER */
 
-.footer {
+.footer{
     background-color: #377e13;
     height: 200px;
     display: flex;
@@ -417,69 +421,74 @@ body {
     background-position: -10px 35px;
 }
 
-.footer-part {
+.footer-part{
     flex-direction: column;
     display: flex;
     width: 250px;
 }
 
-.footer-titulo {
+.footer-titulo{
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 20px;
     color: white;
 }
 
-.footer a {
+.footer a{
     text-decoration: none;
     letter-spacing: 0.5px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
 
-.footer a:hover {
+.footer a:hover{
     color: #102903;
     transition: 0.3s;
     text-decoration: underline;
 }
 
-.footer-item {
+.footer-item{
     font-size: 13px;
     margin-bottom: 10px;
     color: rgba(236, 232, 232, 0.945);
 }
 
-
 /* MENU */
 
 
-/* RESPONSIVIDADE CELULAR */
+/* RESPONSIVIDADE CELULAR */ 
 
 @media screen and (max-width:800px) {
-    /* GERAL */
-    body {
+
+    /* GERAL */ 
+
+    body{
         justify-content: center;
         margin: auto;
     }
-    .btn-menu {
+    
+    .btn-menu{
         display: flex;
     }
-    .img-responsive {
-        display: none;
+
+    .img-responsive{
+        display: none;  
     }
-    .titulo-content {
+    .titulo-content{
         font-size: 32px;
         text-align: center;
         align-items: center;
     }
-    .text-content {
+   
+    .text-content{
         font-size: 15px;
     }
-    .margin-responsive {
+    .margin-responsive{
         margin-top: 50px;
     }
-    /* HEADER E CAPA */
-    .header {
+
+    /* HEADER E CAPA */ 
+    .header{
         background-color: black;
         height: 60px;
         display: flex;
@@ -487,201 +496,249 @@ body {
         justify-content: center;
         height: 60px;
     }
-    .responsive-header {
+    
+    .responsive-header{
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .btn-header {
+
+    .btn-header{
         display: none;
     }
-    .btn-header-responsive {
+
+    .btn-header-responsive{
         display: flex;
     }
-    #titulo {
+    
+    #titulo{
         font-size: 50px;
         margin-bottom: 10px;
         line-height: 55px;
         text-align: center;
     }
-    .subtitulo {
+    .subtitulo{
         font-size: 25px;
     }
+  
     /* INÍCIO */
-    .supervisor {
+
+    .supervisor{
         flex-direction: column;
     }
-    #img-otaviano {
+    #img-otaviano{
         width: 370px;
         margin-bottom: 40px;
         margin-top: -10px;
     }
-    /* ROTINA */
-    .green-block {
+
+    /* ROTINA */ 
+
+    .green-block{
         font-size: 18px;
         padding: 15px;
     }
-    .rotina-container {
+    .rotina-container{
         flex-direction: column;
         justify-items: center;
     }
-    .rotina-coluna {
+
+    .rotina-coluna{
         width: 90%;
         margin: auto;
     }
-    .img-rotina {
+
+    .img-rotina{
         width: 100%;
         height: 100%;
     }
-    .img-lab {
+
+    .img-lab{
         width: 95%;
     }
-    #defeito {
+
+    #defeito{
         text-align: center;
     }
+
     /* AULAS */
-    .green-block2 {
+
+    .green-block2{
         font-size: 18px;
         padding: 15px;
         height: 110px;
     }
-    .box {
-        flex-direction: column;
+  
+    .box{
+    flex-direction: column;
     }
-    .titulo-monitoria {
+    .titulo-monitoria{
         line-height: 35px;
         text-align: center;
     }
-    /* GLPI */
-    .glpi {
+
+    /* GLPI */ 
+
+    .glpi{
         flex-direction: column;
     }
-    .col-glpi {
+    .col-glpi{
         flex-direction: column;
     }
-    #acesso-sistema {
+ 
+    #acesso-sistema{
         margin-top: 50px;
         margin-bottom: 50px;
-    }
-    .glpi-container {
+    }   
+    .glpi-container{
         flex-direction: column;
     }
-    .glpi-coluna {
-        max-width: 80%;
+    .glpi-coluna{
+        max-width:80%;
     }
-    #img-glpi-responsive {
+    #img-glpi-responsive{
         display: flex;
         max-width: 100%;
         margin-top: 40px;
+        
     }
-    /* FOOTER */
-    .footer {
+    .img-col-margin{
+        margin-top: 35px; ;
+    }
+
+/* FOOTER */
+    .footer{
         margin-top: 50px;
         background-image: none;
         padding-top: 35px;
-        padding-left: 5px;
+        padding-left: 5px ;
         padding-right: 5px;
         margin-left: auto;
         max-width: 100%;
         height: 240px;
+  
     }
-    .footer-part {
+    .footer-part{
         width: 150px;
         padding-right: 5px;
     }
-    .footer-titulo {
+    .footer-titulo{
         font-size: 18px;
     }
-    .footer-item {
+    .footer-item{
         font-size: 12px;
-    }
+    }   
 }
-
 
 /* RESPONSIVIDADE TABLET */
 
-@media screen and (min-width:801px) and (max-width:1300px) {
+@media screen and (min-width:801px) and (max-width:1300px){
     /* GERAL */
-    body {
+    body{
         justify-content: center;
         margin: auto;
     }
-    .img-responsive {
+    .img-responsive{
         display: none;
     }
-    .titulo-content {
+    .titulo-content{
         font-size: 40px;
         text-align: center;
         align-items: center;
         line-height: 35px;
     }
-    .text-content {
+    .text-content{
         font-size: 18px;
     }
-    /* HEADER E CAPA */
-    #titulo {
+
+    /* HEADER E CAPA */ 
+
+    #titulo{
         font-size: 60px;
         margin-bottom: 10px;
         line-height: 55px;
         text-align: center;
     }
-    .subtitulo {
+    .subtitulo{
         font-size: 30px;
     }
+  
     /* INÍCIO */
-    .supervisor {
+
+    .supervisor{
         flex-direction: column;
     }
-    #img-otaviano {
+    #img-otaviano{
         width: 370px;
         margin-bottom: 40px;
         margin-top: -10px;
     }
+    
     /* ROTINA */
-    .green-block {
+
+    .green-block{
         font-size: 20px;
         padding: 20px;
         line-height: 30px;
     }
-    .img-rotina {
+   
+    .img-rotina{
         display: none;
     }
-    .rotina-container {
+
+    .rotina-container{
         width: 95%;
     }
-    .rotina-coluna {
+    .rotina-coluna{
         width: 100%;
     }
+
     /* AULAS */
-    .img-lab {
+
+    .img-lab{
         display: none;
     }
-    .green-block2 {
+    .green-block2{
         font-size: 20px;
         padding: 20px;
     }
+
+
     /* GLPI */
-    #acesso-sistema {
+
+    #acesso-sistema{
         margin-top: 50px;
         margin-bottom: 80px;
     }
+    .glpi-container{
+        flex-direction: column;
+    }
+    .glpi-coluna{
+        max-width:80%;
+        margin: auto;
+    }
+
+    .img-col-margin{
+        margin-top: 35px; ;
+    }
+
     /* FOOTER */
-    .footer {
+    .footer{
         margin-top: 50px;
         background-image: none;
         padding-top: 35px;
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 10px ;
         margin-left: auto;
         max-width: 100%;
+      
     }
-    .footer-part {
-        width: 200px;
+    .footer-part{width: 200px;
     }
-    .footer-titulo {
+    .footer-titulo{
         font-size: 19px;
     }
-    .footer-item {
+    .footer-item{
         font-size: 13px;
     }
 }
